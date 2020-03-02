@@ -1,0 +1,103 @@
+@import '../../../../resources/mixins';
+
+.brands-value-container{
+  max-height: 450px;
+}
+
+.brand-influencers-container{
+  height: 420px;
+  margin-top: 40px;
+}
+
+.margin-left-xs{
+  margin-left: 8px;
+}
+
+.margin-left-md{
+  margin-left: 20px;
+}
+
+.margin-top-lg{
+  margin-top: 40px;
+}
+
+.margin-bot-lg{
+  margin-bottom: 40px;
+}
+
+.margin-top-sm{
+  margin-top: 20px;
+}
+
+.margin-top-xs{
+  margin-top: 10px;
+}
+
+.report-select{
+  width: 100%;
+}
+
+.post-card-container{
+  height: 470px;
+  padding-top: 20px;
+  overflow-y: auto;
+  margin: 0px !important;
+  background: #F2F3F8;
+}
+
+.media-type-btns{
+  padding-top: 10px;
+  margin-bottom: 10px;
+  background: #F2F3F8;
+  display: block;
+}
+
+.posts-modal-container{
+  background: #F2F3F8;
+}
+
+.posts-modal{
+  max-width: 600px;
+  margin-top: -70px;
+}
+
+.influencer-table tr {
+  cursor: pointer;
+  &:last-child{
+    cursor: default;
+  }
+}
+
+.spinner-container{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.table-col-border{
+  border: 1pt solid #514d6a !important;
+}
+
+.filter-container {
+  padding: 10px 0px 0px 0px;
+}
+
+.filter-container .ant-row > div {
+  background: transparent;
+  border: 0;
+}
+.gutter-box {
+  padding: 5px 0;
+}
+
+.filter-form-item{
+  width: 100%;
+}
+
+.download-csv-btn{
+  margin-bottom: 10px;
+}
+
+.brand-source-table{
+  font-size: 10px;
+}

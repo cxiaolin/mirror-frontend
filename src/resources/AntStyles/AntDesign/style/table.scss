@@ -1,0 +1,13 @@
+// Import mixins from "core" module
+@import '../../../mixins';
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/*  ANT DESIGN TABLE */
+
+.ant-table-expanded-row > td {
+  background: $white !important;
+}
+
+.ant-table-column-sorters {
+  padding-right: rem(15);
+}

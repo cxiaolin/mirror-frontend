@@ -1,0 +1,73 @@
+@import '../../../../resources/mixins';
+
+.mainMenu {
+
+  @media (max-width: $sm-max-width) {
+    float: left;
+    margin-right: rem(20);
+  }
+
+  &__desktop {
+    display: inline-block;
+
+
+    @media (max-width: $sm-max-width) {
+      display: none;
+    }
+
+    a {
+      display: inline-block;
+      line-height: 26px;
+      margin: 0 rem(5);
+      padding: rem(0) rem(10);
+      font-size: rem(15);
+      color: $blue;
+      border-radius: 4px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &:hover {
+        color: $blue-darken;
+        background: $gray-lighten;
+      }
+      &.active {
+        background: $blue;
+        color: $white;
+        &:hover {
+          background: $blue-darken;
+        }
+      }
+    }
+  }
+
+  &__mobile {
+    display: none;
+
+    @at-root {
+      a.mobileMenu__link {
+        display: inline-block;
+        line-height: 26px;
+        margin: 0 rem(5);
+        padding: rem(0) rem(10);
+        font-size: rem(15);
+        color: $blue;
+
+        &:hover {
+          color: $blue-darken;
+          background: $gray-lighten;
+        }
+        &.active {
+          background: $blue;
+          color: $white;
+          &:hover {
+            background: $blue-darken;
+          }
+        }
+      }
+    }
+
+    @media (max-width: $sm-max-width) {
+      display: block;
+    }
+  }
+}

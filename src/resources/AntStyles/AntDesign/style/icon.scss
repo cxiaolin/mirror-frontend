@@ -1,0 +1,16 @@
+// Import mixins from "core" module
+@import '../../../mixins';
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/*  ANT DESIGN ICON */
+
+.anticon {
+  vertical-align: unset;
+}
+
+.ant-avatar {
+  background: $gray-border;
+  .anticon {
+    font-size: 21px !important;
+  }
+}

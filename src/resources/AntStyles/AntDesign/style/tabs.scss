@@ -1,0 +1,11 @@
+// Import mixins from "core" module
+@import '../../../mixins';
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/*  ANT DESIGN TABS */
+
+.ant-tabs-nav .ant-tabs-tab {
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: rem(20);
+}

@@ -1,0 +1,10 @@
+@import '../../../../resources/mixins';
+
+.mirrorr {
+  &__logo {
+    float: left;
+    img {
+      height: rem(17);
+    }
+  }
+}
